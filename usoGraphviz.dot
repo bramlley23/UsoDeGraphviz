@@ -1,0 +1,18 @@
+
+digraph dibujo {
+	rankdir=LR;
+	node[shape=record, style=filled];
+	curso1[label = "codigo 1 | uno 1"];
+	curso2[label = "codigo 2 | dos 2"];
+	curso3[label = "codigo 3 | tres 3"];
+	curso4[label = "codigo 4 | cuatro 4"];
+	curso5[label = "codigo 5 | cinco 5"];
+
+	curso1 -> curso1;
+	cusro1 -> curso2;
+	curso1 -> curso3;
+	cusro3 -> curso4;
+	curso4 -> curso5;
+	curso5 -> curso1;
+	
+}
