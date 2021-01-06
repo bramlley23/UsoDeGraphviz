@@ -7,6 +7,7 @@ digraph dibujo {
 	curso3[label = "codigo 3 | tres 3"];
 	curso4[label = "codigo 4 | cuatro 4"];
 	curso5[label = "codigo 5 | cinco 5"];
+	curso6[label = "codigo 6 | seis 6"];
 
 	curso1 -> curso1;
 	cusro1 -> curso2;
@@ -14,5 +15,5 @@ digraph dibujo {
 	cusro3 -> curso4;
 	curso4 -> curso5;
 	curso5 -> curso1;
-	
+	cusros -> curso5;
 }
